@@ -1,0 +1,15 @@
+
+
+.container {
+  border: solid ipx red;
+  height: 650px;
+}
+
+.child {
+height: 500px;
+}
+
+.child-margin-top {
+  margin-top: -60px;
+}
+

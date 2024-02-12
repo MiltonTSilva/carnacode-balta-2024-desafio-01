@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/app.css" />
+    <link rel="stylesheet" href="./assets/css/history.css" />
+    <title>IMC</title>
+  </head>
+  <body>
+    <div class="container flex flex-column flex-center">
+      <span class="icon-imc flex flex-center">
+        <img
+          src="./assets/images/icon-no-bg.png"
+          alt="imagem imc"
+          width="70.82"
+          height="70.82"
+        />
+      </span>
+      <label class="title">Histórico</label>
+
+      <input
+        class="input-text input-history"
+        type="text"
+        name="search"
+        id="search"
+        placeholder="Pesquisar..."
+      />
+    </div>
+
+    <div class="container-history flex">
+      <div class="square"></div>
+
+      <div class="details">
+        <div class="label">
+          <label for="label-weight" class="label-weight"
+            >Peso ideal
+            <img src="./assets/images/verifica.png" alt="" />
+          </label>
+          <label for="label-datetime" class="label-datetime">8m atrás</label>
+        </div>
+
+        <p>
+          Parabéns, você está no seu peso ideal, continue mantendo este estilo!
+        </p>
+      </div>
+    </div>
+
+    <div class="container-history flex">
+      <div class="square"></div>
+
+      <div class="details">
+        <div class="label">
+          <label for="label-weight" class="label-weight"
+            >Sobrepeso <img src="./assets/images/menos.png" alt=""
+          /></label>
+          <label for="label-datetime" class="label-datetime">12/10/2023</label>
+        </div>
+
+        <p>Estamos quase lá! Faça alguns ajustes para ficar no peso ideal!</p>
+      </div>
+    </div>
+  </body>
+</html>
